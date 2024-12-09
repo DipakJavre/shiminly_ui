@@ -81,32 +81,6 @@ const App = () => {
   };
 
   return (
-    // <div className="bg-gray-50 min-h-screen p-8">
-    //   <h1 className="text-3xl font-bold text-center mb-8">Flashcard Generator</h1>
-
-    //   <FileUpload onGenerateFlashcards={handleGenerateFlashcards} isLoading={isLoading} />
-
-    //   {!reviewCompleted && flashcards.length > 0 && (
-    //     <FlashcardViewer
-    //       flashcards={flashcards}
-    //       onFlashcardAction={handleFlashcardAction}
-    //       onReviewCompleted={handleReviewCompleted}
-    //     />
-    //   )}
-
-    //   {showTable && <FlashcardTable flashcards={acceptedFlashcards} classes={classes} />}
-
-    //   {acceptedFlashcards.length > 0 && !showTable && (
-    //     <div className="text-center mt-8">
-    //       <button
-    //         onClick={handleViewTable}
-    //         className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-    //       >
-    //         View Accepted Flashcards
-    //       </button>
-    //     </div>
-    //   )}
-    // </div>
       <Layout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
